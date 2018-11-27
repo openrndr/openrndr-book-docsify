@@ -21,7 +21,7 @@ extend {
 }
 ```
 
-[Link to the full example](https://github.com/openrndr/openrndr-guide/blob/master/drawing/01_text/Text000.kt)
+[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/drawing/01_text/Text000.kt)
 
 <video controls>
     <source src="media/text-001.mp4" type="video/mp4"></source>
@@ -46,7 +46,7 @@ extend {
 }
 ```
 
-[Link to the full example](https://github.com/openrndr/openrndr-guide/blob/master/drawing/01_text/Text001.kt)
+[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/drawing/01_text/Text001.kt)
 
 <video controls>
     <source src="media/text-002.mp4" type="video/mp4"></source>
@@ -63,7 +63,7 @@ The writer has a box property that determines the area in which it can place tex
 writer.box = Rectangle(Vector2(100.0, 100.0), 400.0, 400.0)
 ```
 
-[Link to the full example](https://github.com/openrndr/openrndr-guide/blob/master/drawing/01_text/Text002.kt)
+[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/drawing/01_text/Text002.kt)
 
 In some cases you may want to have a an infinitely large box, this avoids line breaks altogether.
 
@@ -71,7 +71,7 @@ In some cases you may want to have a an infinitely large box, this avoids line b
 writer.box = Rectangle(Vector2(100.0, 100.0), Double.`POSITIVE_INFINITY`, Double.`POSITIVE_INFINITY`)
 ```
 
-[Link to the full example](https://github.com/openrndr/openrndr-guide/blob/master/drawing/01_text/Text002.kt)
+[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/drawing/01_text/Text002.kt)
 
 A quick way to set the box to equate the bounds of the screen:
 
@@ -80,7 +80,7 @@ writer.box = drawer.bounds
 writer.box = drawer.bounds.offsetEdges(-50.0)
 ```
 
-[Link to the full example](https://github.com/openrndr/openrndr-guide/blob/master/drawing/01_text/Text002.kt)
+[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/drawing/01_text/Text002.kt)
 
 ### Text properties
 The `Writer` has several properties that affect the appearance of text.

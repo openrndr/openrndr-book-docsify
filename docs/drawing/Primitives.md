@@ -42,6 +42,6 @@ extend {
 }
 ```
 
-[Link to the full example](https://github.com/openrndr/openrndr-guide/blob/master/drawing/Primitives000.kt)
+[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/drawing/Primitives000.kt)
 
 <img src="media/drawing-circles-001.png"/>
