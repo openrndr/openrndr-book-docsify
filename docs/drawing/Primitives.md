@@ -42,6 +42,6 @@ extend {
 }
 ```
 
-[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/examples/drawing/Primitives000.kt)
+[Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/src/main/kotlin/examples/drawing/Primitives000.kt)
 
 <img src="media/drawing-circles-001.png"/>
