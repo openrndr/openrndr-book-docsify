@@ -29,7 +29,7 @@ window.$docsify = {
         plugins.editLink,
         // window.DocsifyCopyCodePlugin.init()
     ],
-    homepage: 'Index.md',
+    homepage: '01_Before_you_start/C00WhatIsOPENRNDR.md',
     themeColor: '#fdd0dd',
 };
 
